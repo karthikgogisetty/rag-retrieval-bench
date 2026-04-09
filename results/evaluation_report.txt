@@ -1,0 +1,77 @@
+======================================================================
+EMBEDDING MODEL EVALUATION REPORT
+======================================================================
+
+1. EVALUATION SETUP
+   Document: Acme Enterprise Platform (22 pages)
+   Chunks: 58
+   Queries: 5
+   Models evaluated: 3
+
+2. MODELS EVALUATED
+   - all-MiniLM-L6-v2: Lightweight baseline (22M params, 384d)
+   - bge-large-en-v1.5: Top MTEB retrieval model (335M params, 1024d)
+   - e5-large-v2: Strong alternative architecture (335M params, 1024d)
+
+3. GROUND TRUTH SUMMARY
+   Q1 (Mobile DLP & BYOD controls): 2 highly relevant + 2 partially relevant chunks
+   Q2 (Zero Trust architecture): 1 highly relevant + 2 partially relevant chunks
+   Q3 (Audit logs & SIEM integration): 1 highly relevant + 1 partially relevant chunks
+   Q4 (Information Barriers / Ethical Walls): 1 highly relevant + 0 partially relevant chunks
+   Q5 (Responsible AI & model governance): 2 highly relevant + 2 partially relevant chunks
+
+4. AGGREGATE RESULTS (macro-averaged across 5 queries)
+
+   Metric                   all-MiniLM-L6-v2    bge-large-en-v1.5          e5-large-v2
+   -----------------------------------------------------------------------------------
+   hit_rate_at_1                    0.8000               1.0000 *             1.0000 *
+   hit_rate_at_3                    1.0000 *             1.0000 *             1.0000 *
+   hit_rate_at_5                    1.0000 *             1.0000 *             1.0000 *
+   precision_at_3                   0.4667               0.6000               0.6667 *
+   precision_at_5                   0.4000               0.5200 *             0.4400  
+   recall_at_3                      0.5667               0.7167               0.7333 *
+   recall_at_5                      0.7167               0.9333 *             0.7833  
+   mrr                              0.9000               1.0000 *             1.0000 *
+   ndcg_at_3                        0.6000               0.9121               0.9250 *
+   ndcg_at_5                        0.6837               0.9487 *             0.9094  
+
+   (* = best)
+
+5. CONCLUSION
+   Winner: bge-large-en-v1.5 (NDCG@5 = 0.9487)
+
+   Ranking by NDCG@5 (primary metric):
+     #1: bge-large-en-v1.5 (NDCG@5=0.9487)
+     #2: e5-large-v2 (NDCG@5=0.9094)
+     #3: all-MiniLM-L6-v2 (NDCG@5=0.6837)
+
+6. PER-QUERY NDCG@5
+
+   Q1: Mobile DLP & BYOD controls
+     all-MiniLM-L6-v2          NDCG@5=0.7850  MRR=1.0000  Recall@5=1.0000
+     bge-large-en-v1.5         NDCG@5=1.0000  MRR=1.0000  Recall@5=1.0000
+     e5-large-v2               NDCG@5=0.8811  MRR=1.0000  Recall@5=0.7500
+
+   Q2: Zero Trust architecture
+     all-MiniLM-L6-v2          NDCG@5=0.2421  MRR=1.0000  Recall@5=0.3333
+     bge-large-en-v1.5         NDCG@5=0.8305  MRR=1.0000  Recall@5=0.6667
+     e5-large-v2               NDCG@5=0.8473  MRR=1.0000  Recall@5=0.6667
+
+   Q3: Audit logs & SIEM integration
+     all-MiniLM-L6-v2          NDCG@5=0.8262  MRR=1.0000  Recall@5=0.5000
+     bge-large-en-v1.5         NDCG@5=1.0000  MRR=1.0000  Recall@5=1.0000
+     e5-large-v2               NDCG@5=0.8262  MRR=1.0000  Recall@5=0.5000
+
+   Q4: Information Barriers / Ethical Walls
+     all-MiniLM-L6-v2          NDCG@5=1.0000  MRR=1.0000  Recall@5=1.0000
+     bge-large-en-v1.5         NDCG@5=1.0000  MRR=1.0000  Recall@5=1.0000
+     e5-large-v2               NDCG@5=1.0000  MRR=1.0000  Recall@5=1.0000
+
+   Q5: Responsible AI & model governance
+     all-MiniLM-L6-v2          NDCG@5=0.5652  MRR=0.5000  Recall@5=0.7500
+     bge-large-en-v1.5         NDCG@5=0.9131  MRR=1.0000  Recall@5=1.0000
+     e5-large-v2               NDCG@5=0.9925  MRR=1.0000  Recall@5=1.0000
+
+======================================================================
+END OF REPORT
+======================================================================

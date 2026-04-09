@@ -1,0 +1,441 @@
+Acme Enterprise Platform: Secure, Intelligent, and Compliant Collaboration
+
+Enterprise Data Overview
+
+Document Version: 4.1
+Date: October 26, 2023
+Classification: Acme Confidential
+For: Prospective Enterprise Partners
+
+Abstract: This document provides a comprehensive overview of the Acme collaboration platform, detailing its features, enterprise-grade security architecture, compliance certifications, disaster recovery protocols, advanced AI capabilities, and corporate structure. It is intended to provide prospective enterprise clients with the necessary information to evaluate Acme as a mission-critical communication partner.
+
+1. Executive Summary
+
+In the modern digital workplace, communication is the central nervous system of an organization. However, fragmented tools, security vulnerabilities, and information overload create significant friction, hindering productivity and introducing risk.
+
+Acme is an enterprise-first collaboration platform engineered to solve these challenges. We provide a unified, secure, and intelligent environment where teams can connect, collaborate, and innovate. Our platform is more than just a messaging app; it is a central hub for work, integrating seamlessly with the tools your organization already uses.
+
+This document outlines the four pillars of the Acme Enterprise offering:
+
+1. Intuitive Collaboration: A feature-rich suite of tools designed to make communication effortless and organized, from real-time messaging and video huddles to asynchronous threaded conversations and powerful workflow automation.
+2. Uncompromising Security: A multi-layered security architecture that protects your data at every stage. From end-to-end encryption options to granular access controls and proactive threat monitoring, security is embedded in our DNA.
+3. Verifiable Compliance: A commitment to meeting the world's most stringent regulatory standards, including SOC 2 Type II, ISO 27001, GDPR, and HIPAA. We provide the tools necessary for data governance, eDiscovery, and legal holds.
+4. Intelligent Productivity: Leveraging the power of our proprietary AI, "Acme Intelligence," we transform communication data into actionable insights, automate routine tasks, and help users find the information they need, instantly.
+
+Acme is built for the scale, complexity, and security demands of the modern enterprise. We empower your workforce to be more productive while providing your IT and security teams with the control and visibility they require.
+
+2. Introduction to Acme
+
+2.1 Our Mission
+
+Acme's mission is to make work-life simpler, more pleasant, and more productive. We believe that the right communication tool can break down silos, foster a culture of transparency, and unlock the collective intelligence of an organization. We are dedicated to building a platform that is not only powerful but also a joy to use.
+
+2.2 The Acme Platform: Redefining Enterprise Communication
+
+Founded in 2018 by a team of enterprise software veterans, Acme was built from the ground up to address the shortcomings of legacy communication systems and first-generation messaging apps. We recognized that enterprises need more than just chat; they need a resilient, governable, and intelligent platform that can serve as the digital headquarters for their entire operation.
+
+The Acme Platform is a cloud-native solution that provides:
+- A Single Source of Truth: Centralize conversations, files, and project history in a fully searchable archive.
+- A Hub for Integration: Connect all your essential business applications into a single interface, reducing context switching and improving efficiency.
+- A Secure Foundation: Operate with confidence, knowing your most sensitive conversations are protected by industry-leading security protocols.
+- An Engine for Automation: Automate routine processes and approvals with our intuitive Workflow Builder, freeing up employees to focus on high-value work.
+
+3. Core Platform Features
+
+The Acme platform is designed to support all modes of communication and collaboration required by a dynamic enterprise.
+
+3.1 Seamless Communication
+
+- Channels: Organize conversations around projects, teams, or topics. Channels can be public for transparency or private for sensitive discussions. Guest and shared channels allow for secure collaboration with external partners and vendors.
+- Threads: Keep conversations focused and uncluttered by replying directly to messages. Threads make it easy to follow complex discussions without overwhelming the main channel view.
+- Direct Messages (DMs): For one-on-one or small group conversations, DMs provide a private and direct line of communication.
+- Huddles: Instantly start a lightweight audio or video call directly from any channel or DM. Huddles are perfect for quick, spontaneous discussions that are faster than typing but don't require a formal meeting. Screen sharing and multi-person participation are fully supported.
+- Rich Messaging: Communicate with clarity using features like @mentions, emoji reactions, rich text formatting, code snippets, and user status updates.
+
+3.2 Enhanced Collaboration
+
+- File Sharing & Previews: Securely share files from your local device or cloud storage providers (Google Drive, OneDrive, Dropbox, etc.). Acme generates rich previews for common file types, including documents, spreadsheets, PDFs, and images, allowing for collaboration without leaving the platform. All shared files are indexed for search.
+- Clips: Record and share short audio or video messages to provide updates, give feedback, or explain complex topics asynchronously. Clips reduce the need for meetings and cater to globally distributed teams.
+- Integrations Marketplace: Our extensive marketplace features over 2,000 pre-built integrations with leading SaaS applications like Jira, Salesforce, GitHub, Asana, and Workday. Receive notifications, take actions, and sync data across your entire toolchain.
+- Canvas: A persistent, collaborative space within every channel and DM. Use Canvas to store project briefs, meeting notes, checklists, and important links. It acts as a permanent knowledge base for the conversation, ensuring key information is always accessible.
+
+3.3 Productivity & Workflow Automation
+
+- Universal Search: Our powerful, unified search engine allows you to find messages, files, channels, and people instantly. Advanced search operators allow for filtering by date, user, file type, and more, ensuring you can pinpoint information even in a vast corporate archive.
+- Customizable Notifications: Take control of your focus time with granular notification settings. Mute channels, set keywords for alerts, and define "do not disturb" hours to minimize distractions.
+- Workflow Builder: A no-code tool that empowers any user to automate routine tasks and processes. Create custom workflows for things like: Requesting IT support or HR approvals. Onboarding new team members. Triaging customer feedback from a dedicated channel. Sending daily team stand-up reminders.
+- Reminders & Saved Items: Never lose track of an important message or task. Set a reminder on any message to be notified at a later time, or save items to a personal list for easy access.
+
+4. Acme Intelligence: The Future of Work
+
+Acme Intelligence is our suite of proprietary AI and machine learning features designed to augment human capability, reduce information overload, and surface critical insights from your organization's conversational data. Our AI models are trained with security and privacy as a first principle, ensuring your data is never used for training multi-tenant models.
+
+4.1 AI-Powered Summaries & Recaps
+
+- Channel Summaries: Get a high-level summary of the key discussions, decisions, and action items from any channel over a specific period (e.g., "last 24 hours"). This is invaluable for catching up after time off or quickly understanding the status of a project.
+- Thread Summaries: Instantly understand the outcome of a long, complex thread without reading every single reply.
+- "What I Missed": A personalized daily digest that highlights the most relevant conversations and direct mentions from your most important channels, ensuring you start your day informed.
+
+4.2 Intelligent Search & Discovery
+
+- Natural Language Search: Go beyond keywords. Ask questions in plain English, such as "What was the final decision on the Q4 marketing budget?" or "Find the design mockups from Sarah last week." Acme Intelligence understands intent and context to deliver highly relevant results.
+- Expert Finder: Automatically identifies subject matter experts within your organization based on their conversations and shared files. If you search for "Project Titan security protocols," Acme can suggest the key people involved in that project.
+
+4.3 Proactive Task & Action Item Detection
+
+Acme Intelligence scans conversations to identify potential tasks, questions, and commitments.
+- Action Item Suggestions: When a message like "I'll send you the report by EOD tomorrow" is posted, Acme can proactively suggest creating a reminder or a task for the user.
+- Unanswered Question Alerts: In busy channels, important questions can get missed. Acme can flag questions that have not received a reply after a certain period, ensuring nothing falls through the cracks.
+
+4.4 AI and Data Governance
+
+Our AI capabilities are built on a foundation of trust and control.
+- Compliance-Aware AI: All AI features respect the underlying data governance and compliance settings of your organization. For example, if a user is part of a legal hold, their data is excluded from summarization models to maintain data integrity.
+- Data Isolation: Enterprise customer data is processed in single-tenant, isolated environments. Your data is never co-mingled or used to train models for other customers. This is a core tenet of our security posture.
+- Admin Controls: Administrators have full control to enable or disable specific AI features on an organizational or per-user group basis.
+
+5. Enterprise-Grade Security
+
+Security is not a feature at Acme; it is the foundation upon which our platform is built. We employ a defense-in-depth strategy, layering multiple physical, technical, and administrative controls to protect customer data. Our security program is managed by a dedicated team under the direction of our Chief Security Officer (CSO).
+
+5.1 Data Encryption
+
+We ensure the confidentiality and integrity of your data through robust encryption at every stage.
+- Data in Transit: All data transmitted between Acme clients (web, desktop, mobile) and our servers is encrypted using TLS 1.3 with strong cipher suites. This protects against eavesdropping and man-in-the-middle attacks.
+- Data at Rest: All customer data, including messages, files, and database entries, is encrypted at rest on our servers using industry-standard AES-256 encryption. Encryption keys are managed using hardened, regularly rotated key management systems (KMS).
+- Enterprise Key Management (EKM): For maximum control, enterprise customers can use their own encryption keys, hosted in their own AWS KMS instance. This gives you auditable control over the keys that encrypt your data.
+
+5.2 Identity and Access Management (IAM)
+
+- Single Sign-On (SSO): Integrate with your existing identity provider (e.g., Okta, Azure AD, Ping Identity) via SAML 2.0 or OpenID Connect for centralized and secure user authentication.
+- Multi-Factor Authentication (MFA): Enforce MFA for all users to add a critical layer of security beyond passwords.
+- Role-Based Access Control (RBAC): Assign granular permissions to users and administrators. Define custom roles to control who can create channels, manage users, access compliance tools, or configure integrations.
+- SCIM Provisioning: Automate user lifecycle management. Automatically create, update, and deactivate user accounts in Acme as they are changed in your central identity provider.
+
+5.3 Network and Infrastructure Security
+
+- Virtual Private Cloud (VPC): The Acme production environment is hosted within a logically isolated VPC on Amazon Web Services (AWS). Network access control lists (ACLs) and security groups are used to strictly control inbound and outbound traffic.
+- Web Application Firewall (WAF): We deploy a WAF to protect against common web application attacks such as SQL injection and cross-site scripting (XSS).
+- Intrusion Detection and Prevention Systems (IDS/IPS): Our networks are monitored 24/7 by advanced IDS/IPS to detect and block malicious activity in real-time.
+- DDoS Mitigation: We partner with leading providers to ensure our services are protected against large-scale Distributed Denial of Service attacks.
+
+5.4 Application Security & DevSecOps
+
+- Secure Software Development Lifecycle (SDLC): Security is integrated into every phase of our development process, from design and threat modeling to code review and automated security testing (SAST/DAST).
+- Third-Party Penetration Testing: We engage independent, CREST-certified security firms to conduct annual penetration tests of our platform and infrastructure. Summaries of these reports are available to enterprise customers upon request.
+- Vulnerability Management: We have a formal vulnerability management program that includes regular scanning, risk assessment, and a commitment to patching critical vulnerabilities within defined SLAs.
+- Bug Bounty Program: We run a private bug bounty program to leverage the global security research community to identify and report potential vulnerabilities.
+
+5.5 Physical Security of Data Centers
+
+Acme leverages the world-class physical security of our cloud provider, AWS. Their data centers are highly secure facilities with multiple layers of protection, including:
+- 24/7 security staff and video surveillance.
+- Biometric access controls.
+- Redundant power, cooling, and networking.
+- Regular audits and certifications (ISO 27001, SOC 1/2/3).
+
+Access to these facilities is strictly limited to authorized personnel, and our infrastructure is deployed in a way that ensures no single point of failure.
+
+6. Compliance and Data Governance
+
+Acme is committed to helping our customers meet their complex regulatory and data governance obligations.
+
+6.1 Global Certifications and Attestations
+
+Acme maintains a comprehensive portfolio of third-party certifications and attestations to provide independent validation of our security and compliance controls. These include:
+- SOC 2 Type II & SOC 3: Reports on Security, Availability, and Confidentiality trust service criteria.
+- ISO/IEC 27001: The international standard for information security management systems (ISMS).
+- ISO/IEC 27017 & 27018: Standards for cloud security and the protection of personally identifiable information (PII).
+- GDPR Compliant: We provide tools and contractual commitments to help customers meet their GDPR obligations.
+- HIPAA: Acme can be configured to support HIPAA compliance, and we will sign a Business Associate Agreement (BAA) for healthcare customers.
+- FedRAMP Moderate (In-Process): Demonstrating our commitment to serving the U.S. public sector.
+
+6.2 Data Residency and Sovereignty
+
+We understand that data location is critical for many organizations. Acme offers data residency, allowing customers to select the geographic region (e.g., United States, European Union, Australia) where their primary data, including messages and files, is stored at rest.
+
+6.3 eDiscovery & Legal Hold
+
+Our platform provides robust tools for legal and compliance teams:
+- eDiscovery API: A dedicated, secure API allows integration with third-party eDiscovery tools (e.g., Smarsh, Global Relay) to search, collect, and export relevant communication data.
+- Legal Hold: Place a custodian-based legal hold on users. This preserves all of their messages and files, even if they attempt to delete them, ensuring data is available for litigation or investigation. This process is invisible to the end-user.
+
+6.4 Data Loss Prevention (DLP)
+
+Acme helps prevent the inadvertent or malicious exfiltration of sensitive data.
+- DLP Integration: Our APIs allow for integration with leading Cloud Access Security Broker (CASB) and DLP solutions. These tools can monitor messages and files in real-time for sensitive content (e.g., credit card numbers, social security numbers, confidential keywords) and take automated action, such as redacting the message or alerting an administrator.
+- Granular File Sharing Controls: Administrators can set policies to restrict file sharing from unmanaged devices or block the upload/download of specific file types.
+
+7. Reliability & Disaster Recovery
+
+Acme is architected for enterprise-grade resilience and availability, ensuring that your organization's communication hub is always online. We commit to a 99.99% uptime SLA for our Enterprise plan customers.
+
+7.1 High-Availability Architecture
+
+- Multi-Availability Zone (AZ) Deployment: Our core services are deployed across multiple, physically distinct Availability Zones within a single geographic region. If one AZ fails, traffic is automatically and seamlessly rerouted to the healthy AZs with no user impact.
+- Redundancy at Every Layer: We employ redundancy for all critical components, including application servers, databases, load balancers, and caching layers.
+- Automated Health Checks & Failover: Automated systems constantly monitor the health of all services and trigger failover procedures without manual intervention.
+
+7.2 Backup and Recovery Strategy
+
+We have a comprehensive backup strategy to protect against data loss.
+- Continuous Data Protection: Production databases are backed up continuously, allowing for point-in-time recovery.
+- Immutable Backups: All backups are stored in a separate, access-controlled environment and are immutable, meaning they cannot be altered or deleted for a defined retention period.
+- Recovery Point Objective (RPO): Our target RPO is 15 minutes. This means in the event of a major failure, no more than 15 minutes of data would be lost.
+- Recovery Time Objective (RTO): Our target RTO is 4 hours. This is the maximum time it would take to restore service in the event of a complete regional disaster.
+
+7.3 Disaster Recovery (DR) Plan and Testing
+
+Acme maintains a formal Disaster Recovery plan that details the procedures for recovering service in the event of a catastrophic failure of an entire geographic region.
+- Multi-Region DR: While our primary infrastructure is multi-AZ, we maintain a warm standby DR site in a separate geographic region. Customer data is asynchronously replicated to this DR site.
+- Annual DR Testing: The entire DR plan is tested at least annually. This test involves a full failover of production services to the DR site to validate our procedures, tooling, and RTO/RPO targets. A summary of the DR test results can be made available to enterprise customers.
+- Incident Response Team: We have a dedicated, 24/7 on-call incident response team trained to manage and resolve service disruptions.
+
+8. Platform Architecture & Integrations
+
+8.1 High-Level System Architecture
+
+The Acme platform is built on a modern, microservices-based architecture hosted on AWS. This design provides scalability, resilience, and the ability to innovate rapidly.
+- Client Layer: Web, Desktop, and Mobile applications.
+- Edge Layer: Load Balancers, WAF, and API Gateway.
+- Service Layer: A suite of microservices handling specific functions (messaging, search, files, AI, etc.).
+- Data Layer: A combination of relational and NoSQL databases, object storage, and caching systems, all designed for high performance and scale.
+
+8.2 Robust API and Integration Ecosystem
+
+We believe in an open and extensible platform. Our comprehensive set of APIs allows for deep integration into your existing business processes.
+- Web API: A full-featured RESTful API that allows you to build custom applications and scripts that can post messages, manage users, create channels, and more.
+- Events API: A real-time, event-driven API that pushes data to your applications as things happen in Acme (e.g., a new message is posted, a user joins a channel).
+- Workflow Builder API: Integrate your own internal tools as custom steps within the no-code Workflow Builder, allowing non-technical users to create powerful, cross-system automations.
+
+9. Company Overview & Structure
+
+9.1 Leadership Team
+
+Acme is led by a team of seasoned executives with deep experience in enterprise software, cloud computing, and cybersecurity.
+- Jane Doe, Chief Executive Officer
+- John Smith, Chief Technology Officer
+- Priya Singh, Chief Product Officer
+- Robert Chen, Chief Security Officer (CSO)
+- Emily White, Chief Financial Officer
+
+9.2 Organizational Commitment to Security
+
+Security is a board-level priority at Acme. Our organizational structure reflects this commitment. The security organization, led by our CSO, operates independently from the engineering team to ensure objective oversight and governance. This team is responsible for:
+- Security Architecture & Engineering
+- Threat Intelligence & Incident Response
+- Risk Management & Compliance
+- Security Awareness Training for all employees
+
+All Acme employees undergo mandatory security training upon hiring and annually thereafter.
+
+9.3 Our Enterprise Focus
+
+Acme is a privately held company with a long-term vision. We are backed by leading venture capital firms who share our focus on building a sustainable, enterprise-focused business. Our product roadmap and engineering priorities are driven by the needs of our largest and most complex customers.
+
+10. Support & Professional Services
+
+We view our customers as partners and are invested in their success.
+
+Support Tiers:
+- Standard Support: 24/5 support via email and in-app ticketing.
+- Premium Support (Enterprise Plan): 24/7/365 support with a 1-hour response time SLA for urgent issues. Includes phone support and a dedicated support manager.
+- Technical Account Manager (TAM): For our largest customers, a dedicated TAM provides proactive guidance, strategic planning, and serves as a single point of contact within Acme.
+
+Onboarding & Implementation:
+Our Professional Services team ensures a smooth and successful deployment of Acme within your organization. Services include:
+- Technical implementation and integration support.
+- Data migration from legacy systems.
+- Custom workflow development.
+- Change management and end-user training programs.
+
+11. Contact Information
+
+Thank you for considering Acme as your enterprise collaboration partner. For further information, a personalized demo, or to discuss your specific requirements, please contact our sales team.
+
+Website: www.acme-messaging.com
+Sales Inquiries: sales@acme-messaging.com
+Security Inquiries: security@acme-messaging.com
+
+12. Advanced Security & Threat Management
+
+Beyond the foundational security controls outlined previously, Acme employs a proactive and modern security posture designed to address the evolving threat landscape.
+
+12.1 Zero Trust Architecture Philosophy
+
+Acme's infrastructure and application architecture are guided by a Zero Trust philosophy. This means we do not automatically trust any user or service, whether internal or external to our network. Every access request is authenticated, authorized, and encrypted before being granted.
+
+Key principles of our Zero Trust implementation include:
+- Identity as the Perimeter: Access controls are based on verified user and device identity, not network location.
+- Least Privilege Access: Services and employees are granted the absolute minimum level of access required to perform their function.
+- Micro-segmentation: Our production network is segmented into smaller, isolated zones. A compromise in one zone is contained and cannot easily spread to others.
+- Continuous Verification: We continuously monitor and validate user and device state, revoking access if anomalous behavior is detected.
+
+12.2 Proactive Threat Intelligence Program
+
+Our security team operates a proactive threat intelligence program to anticipate and defend against emerging threats. This program leverages multiple sources:
+- Open-Source Intelligence (OSINT): Monitoring of public forums and security research communities.
+- Commercial Threat Feeds: Subscriptions to leading cybersecurity intelligence providers for indicators of compromise (IoCs) and threat actor tactics.
+- Information Sharing and Analysis Centers (ISACs): Participation in industry-specific ISACs to share and receive threat information.
+
+Intelligence gathered is used to enrich our security monitoring, create new detection rules in our SIEM, and inform our defensive strategies.
+
+12.3 Incident Response Lifecycle
+
+Acme maintains a formal, documented Incident Response (IR) plan that is tested regularly through tabletop exercises and simulations. Our 24/7 Security Operations Center (SOC) follows a standardized IR lifecycle based on the NIST framework:
+
+- Preparation: Maintaining trained personnel, up-to-date playbooks, and necessary security tooling.
+- Detection & Analysis: 24/7 monitoring of logs and alerts from our SIEM, IDS/IPS, and other security tools to identify and validate potential incidents.
+- Containment: Isolating affected systems from the production network to prevent further damage or data exfiltration.
+- Eradication: Identifying and eliminating the root cause of the incident, such as patching a vulnerability or removing malware.
+- Recovery: Safely restoring affected systems to production and verifying normal operation.
+- Post-Incident Activity: Conducting a root cause analysis (RCA), documenting lessons learned, and implementing improvements to prevent recurrence.
+
+Enterprise customers will be notified of any security incident impacting their data in accordance with our contractual obligations and applicable regulations.
+
+12.4 Software Supply Chain Security (SBOM)
+
+We recognize that securing our own code is not enough. Acme has a robust program to secure our software supply chain:
+- Dependency Scanning: All third-party libraries and dependencies are automatically scanned for known vulnerabilities (CVEs) as part of our CI/CD pipeline. Builds will fail if critical vulnerabilities are detected.
+- Software Bill of Materials (SBOM): We maintain a dynamic SBOM for our platform. This provides a complete inventory of all software components, enabling rapid impact analysis and response in the event of a new vulnerability disclosure (e.g., Log4j).
+- Vendor Security Reviews: All third-party sub-processors and critical software vendors undergo a rigorous security and compliance review before being onboarded.
+
+13. Advanced Data Governance & Control
+
+Acme provides enterprise administrators with powerful, granular tools to enforce their specific corporate and regulatory data handling policies.
+
+13.1 Customizable Data Retention Policies
+
+Beyond simple message archives, Acme allows for the creation of highly specific data retention policies to meet legal, regulatory, and business requirements.
+- Global Policy: Set a default retention policy for the entire organization (e.g., "retain all data for 7 years").
+- Granular Policies: Define custom policies for specific channels or user groups. For example, a channel dedicated to a sensitive M&A project can have its data set to be permanently deleted 30 days after the project concludes, while data in an HR-related channel can be retained for a longer, specific period.
+- Policy Actions: Policies can be configured to either: Retain data: Keep data for a specified period, overriding user deletion attempts. Delete data: Automatically and permanently delete data after a specified period.
+
+All retention policy configurations and actions are fully auditable.
+
+13.2 Ethical Walls & Information Barriers
+
+For organizations in finance, legal, and other regulated industries, Acme provides an Information Barriers feature (also known as Ethical Walls). This allows compliance administrators to prevent specific groups of users from communicating with each other when a conflict of interest exists.
+
+When an Information Barrier policy is active between two groups (e.g., an M&A advisory team and a trading desk):
+- Users in one group cannot initiate a Direct Message with users in the other group.
+- Users cannot be added to the same private channel.
+- Users from one group will not see users from the other group in search results or @mentions.
+
+This feature is critical for preventing insider trading and adhering to regulations like FINRA Rule 2241.
+
+13.3 Comprehensive Audit Logs for SIEM Integration
+
+Acme provides detailed, human-readable audit logs that capture a wide range of activities within your enterprise instance. These logs are essential for security investigations, compliance audits, and internal monitoring.
+
+Key Logged Events Include:
+- User Activity: User login success/failure, password changes, MFA enrollment, profile changes.
+- Administrative Actions: Changes to user roles/permissions, security settings (e.g., SSO configuration), compliance settings (e.g., retention policy changes), and integration approvals.
+- Channel & File Activity: Channel creation/deletion/archiving, user joins/leaves, file uploads/downloads, changes to public/private status.
+- Access & Export: Activity from eDiscovery tools, legal hold actions, and data exports.
+
+Integration and Access:
+- Audit Log API: All audit events are accessible via a dedicated, secure API.
+- SIEM Integration: We provide pre-built connectors and support standardized formats (e.g., CEF, LEEF) for seamless integration with major Security Information and Event Management (SIEM) platforms like Splunk, QRadar, and Microsoft Sentinel. This allows your security team to correlate Acme activity with data from other systems in a single pane of glass.
+
+14. Responsible AI & Model Governance
+
+As AI becomes integral to the Acme platform, we are committed to its ethical and responsible development and deployment. Our approach is built on transparency, accountability, and control.
+
+14.1 Acme's AI Ethics Framework
+
+The development of all Acme Intelligence features is governed by a strict internal AI Ethics Framework. This framework is overseen by our cross-functional AI Ethics Council and is based on four core principles:
+1. Fairness & Impartiality: We actively work to identify and mitigate harmful biases in our training data and models to ensure our AI features perform equitably for all users, regardless of demographic background.
+2. Transparency & Explainability: We strive to be transparent about how our AI features work. Where possible, we provide users with insight into why an AI-driven suggestion or summary was generated.
+3. Accountability & Human-in-the-Loop: We believe AI should augment, not replace, human judgment. Our systems are designed to keep humans in control, with clear mechanisms for users to provide feedback, override suggestions, and report issues.
+4. Privacy & Security by Design: As detailed in Section 4.4, our AI systems are built with privacy as a foundational requirement. We use techniques like data minimization and single-tenant processing to protect customer data.
+
+14.2 AI Model Governance and Validation
+
+Our machine learning models undergo a rigorous governance and validation lifecycle before being deployed to production.
+- Data Sourcing: As stated previously, we have a strict policy against using any customer's message or file content to train our global, multi-tenant AI models. Models are trained on anonymized, aggregated usage data or on publicly available and permissively licensed datasets.
+- Bias Testing & Red Teaming: Before release, models are subjected to extensive testing to detect and mitigate performance disparities across different user groups. Our security team also conducts "AI red teaming" exercises to identify potential ways the models could be abused or manipulated.
+- Continuous Monitoring: Once in production, we continuously monitor model performance, data drift, and user feedback to ensure the models continue to operate as intended and to identify areas for improvement.
+
+15. Mobile Enterprise Management
+
+Acme provides a secure and manageable mobile experience, giving IT administrators the controls they need to protect corporate data on both corporate-owned and employee-owned (BYOD) devices.
+
+15.1 MDM & MAM Integration
+
+The Acme mobile application for iOS and Android is fully compatible with leading Unified Endpoint Management (UEM) solutions, supporting both Mobile Device Management (MDM) and Mobile Application Management (MAM) policies.
+- MDM: For corporate-owned devices, administrators can use their MDM solution to deploy, configure, and secure the entire device, including the Acme app.
+- MAM (App Protection Policies): For BYOD scenarios, MAM allows administrators to apply security controls specifically to the Acme application and its data, without managing the user's entire personal device. This "containerization" approach protects corporate data while respecting employee privacy.
+
+We officially support and test against major UEM platforms, including:
+- Microsoft Intune
+- VMware Workspace ONE
+- MobileIron
+- Jamf
+
+15.2 Mobile-Specific Security Controls
+
+Through your UEM provider, you can enforce a wide range of granular security policies on the Acme mobile app:
+- Enforce App PIN / Biometrics: Require a PIN or biometric authentication (Face ID, fingerprint) to open the Acme app.
+- Block Copy/Paste: Prevent users from copying data out of the Acme app and pasting it into unmanaged personal apps.
+- Control File Downloads: Block users from downloading files to the local device storage or restrict saving to approved corporate apps (e.g., OneDrive).
+- Prevent Screen Capture: Disable the ability for users to take screenshots or screen recordings of conversations within the Acme app.
+- Remote Wipe: Remotely delete all Acme data from the application container if a device is lost, stolen, or the employee leaves the company.
+- Jailbreak/Root Detection: Prevent the Acme app from running on compromised (jailbroken or rooted) devices.
+
+16. Platform Scalability & Accessibility
+
+Acme is engineered to perform at the scale of the world's largest organizations and is designed to be usable by everyone.
+
+16.1 Proven Scalability Metrics
+
+Our horizontally scalable, microservices-based architecture has been battle-tested and load-tested to handle extreme workloads. While we do not impose hard limits, the platform has been validated to support:
+- Workspaces: Single instances with over 500,000 active users.
+- Channels: Individual channels with over 100,000 members.
+- Throughput: Sustained throughput of millions of messages per minute during peak load tests.
+- API Calls: Billions of API calls processed per month across our customer base.
+- Search: Sub-second search query performance across archives containing billions of messages.
+
+16.2 Global Performance Architecture
+
+To ensure a fast and responsive experience for globally distributed teams, Acme employs a multi-faceted performance architecture:
+- Content Delivery Network (CDN): Static assets and user-uploaded files are served from a global CDN, with edge nodes located in dozens of countries. This ensures that files are downloaded from a location geographically close to the user, reducing latency.
+- Edge Caching: We utilize edge caching for frequently accessed API responses, further reducing latency for our real-time services.
+- Global Data Residency: As mentioned in Section 6.2, customers can choose their primary data storage region. Our architecture ensures that while data remains resident in the chosen region, our global network optimizes the path for users connecting from anywhere in the world.
+
+16.3 Commitment to Accessibility (WCAG 2.1)
+
+Acme is committed to ensuring our platform is accessible and usable by people with disabilities, including those who use assistive technologies.
+- Design Standard: We design and build our products to conform to the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA.
+- VPAT Availability: We provide a Voluntary Product Accessibility Template (VPAT) that details our conformance with accessibility standards, including Section 508 of the U.S. Rehabilitation Act.
+- Core Accessibility Features: Full Keyboard Navigation: All platform functionality is accessible using only a keyboard. Screen Reader Support: Our applications are compatible with popular screen readers like JAWS, NVDA, and VoiceOver. We use proper semantic HTML and ARIA labels to ensure a clear and navigable experience. Sufficient Color Contrast: We adhere to WCAG contrast ratio requirements for text and graphical elements. Resizable Text & Scalable UI: Users can resize text and zoom the interface without loss of content or functionality.
+
+Accessibility is an ongoing effort, integrated into our design and development lifecycle.
+
+17. Enterprise Partnership & Success
+
+We believe that our success is intrinsically linked to our customers' success. We go beyond a simple vendor relationship to act as a strategic partner in your collaboration journey.
+
+17.1 Change Management & Adoption Services
+
+Deploying a new communication platform is a significant organizational change. Our Professional Services team offers dedicated Change Management and Adoption programs to ensure a successful rollout and maximize your ROI. These services include:
+- Stakeholder Analysis & Planning: Working with your team to identify key stakeholders, define success metrics, and build a comprehensive launch plan.
+- Communications Strategy: Providing templates and guidance for internal marketing campaigns, executive announcements, and ongoing user communications.
+- Champion Program Development: Helping you identify, train, and empower a network of internal "Acme Champions" to drive grassroots adoption and provide peer support.
+- Customized Training: Delivering role-based training sessions for end-users, managers, and administrators.
+
+17.2 Enterprise Customer Advisory Board (CAB)
+
+Our most strategic enterprise customers are invited to join our Customer Advisory Board. The CAB is a forum for our product and executive leadership to:
+- Share our long-term product roadmap and strategy.
+- Gather direct feedback on the challenges and needs of large-scale enterprises.
+- Co-innovate and validate new feature concepts before development begins.
+
+The CAB ensures that the voice of the enterprise is a primary driver of our platform's evolution.
+
+17.3 Service Level Agreement (SLA) Breakdown
+
+The 99.99% uptime SLA for our Enterprise plan is contractually guaranteed and clearly defined.
+- Definition of "Uptime": The percentage of total minutes in a calendar month that the core messaging, file sharing, and search services of the Acme platform are available.
+- Exclusions: The SLA does not apply to downtime resulting from: Scheduled maintenance (with at least 48 hours prior notice). Failures of third-party integrations or customer-side networks. Force majeure events beyond our reasonable control.
+- Service Credits: In the event we do not meet the 99.99% uptime commitment, customers are eligible for service credits applied to their next billing cycle, calculated as a percentage of their monthly fee, scaling with the duration of the downtime. A detailed credit table is provided in our Master Subscription Agreement (MSA).

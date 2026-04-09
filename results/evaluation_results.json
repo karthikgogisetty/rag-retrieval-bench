@@ -2,11 +2,11 @@
   "all-MiniLM-L6-v2": {
     "model_name": "all-MiniLM-L6-v2",
     "model_id": "sentence-transformers/all-MiniLM-L6-v2",
-    "description": "Lightweight baseline (22M params, 384d)",
+    "description": "Lightweight baseline (22M params, 384d, MTEB 56.3)",
     "dim": 384,
-    "load_time_s": 48.24,
-    "embed_passage_time_s": 0.43,
-    "embed_query_time_s": 0.07,
+    "load_time_s": 3.61,
+    "embed_passage_time_s": 0.44,
+    "embed_query_time_s": 0.06,
     "aggregate_metrics": {
       "hit_rate_at_1": 0.8,
       "hit_rate_at_3": 1.0,
@@ -369,25 +369,25 @@
       }
     ]
   },
-  "bge-large-en-v1.5": {
-    "model_name": "bge-large-en-v1.5",
-    "model_id": "BAAI/bge-large-en-v1.5",
-    "description": "Top MTEB retrieval model (335M params, 1024d)",
-    "dim": 1024,
-    "load_time_s": 167.9,
-    "embed_passage_time_s": 5.1,
-    "embed_query_time_s": 0.27,
+  "nomic-embed-text-v1.5": {
+    "model_name": "nomic-embed-text-v1.5",
+    "model_id": "nomic-ai/nomic-embed-text-v1.5",
+    "description": "Mid-tier with Matryoshka dims (137M params, 768d, MTEB ~62+)",
+    "dim": 768,
+    "load_time_s": 6.58,
+    "embed_passage_time_s": 2.85,
+    "embed_query_time_s": 0.16,
     "aggregate_metrics": {
       "hit_rate_at_1": 1.0,
       "hit_rate_at_3": 1.0,
       "hit_rate_at_5": 1.0,
       "precision_at_3": 0.6,
-      "precision_at_5": 0.52,
-      "recall_at_3": 0.7167,
-      "recall_at_5": 0.9333,
+      "precision_at_5": 0.48,
+      "recall_at_3": 0.6667,
+      "recall_at_5": 0.8333,
       "mrr": 1.0,
-      "ndcg_at_3": 0.9121,
-      "ndcg_at_5": 0.9487
+      "ndcg_at_3": 0.8637,
+      "ndcg_at_5": 0.885
     },
     "per_query_metrics": [
       {
@@ -400,8 +400,8 @@
         "recall_at_3": 0.75,
         "recall_at_5": 1.0,
         "mrr": 1.0,
-        "ndcg_at_3": 1.0,
-        "ndcg_at_5": 1.0
+        "ndcg_at_3": 0.8145672023038535,
+        "ndcg_at_5": 0.8207555803845797
       },
       {
         "qid": 2,
@@ -421,13 +421,13 @@
         "hit_rate_at_1": 1.0,
         "hit_rate_at_3": 1.0,
         "hit_rate_at_5": 1.0,
-        "precision_at_3": 0.6666666666666666,
-        "precision_at_5": 0.4,
-        "recall_at_3": 1.0,
-        "recall_at_5": 1.0,
+        "precision_at_3": 0.3333333333333333,
+        "precision_at_5": 0.2,
+        "recall_at_3": 0.5,
+        "recall_at_5": 0.5,
         "mrr": 1.0,
-        "ndcg_at_3": 1.0,
-        "ndcg_at_5": 1.0
+        "ndcg_at_3": 0.8262346571285599,
+        "ndcg_at_5": 0.8262346571285599
       },
       {
         "qid": 4,
@@ -447,13 +447,13 @@
         "hit_rate_at_1": 1.0,
         "hit_rate_at_3": 1.0,
         "hit_rate_at_5": 1.0,
-        "precision_at_3": 0.6666666666666666,
+        "precision_at_3": 1.0,
         "precision_at_5": 0.8,
-        "recall_at_3": 0.5,
+        "recall_at_3": 0.75,
         "recall_at_5": 1.0,
         "mrr": 1.0,
-        "ndcg_at_3": 0.8344475896326595,
-        "ndcg_at_5": 0.9131210744214262
+        "ndcg_at_3": 0.9514426589871553,
+        "ndcg_at_5": 0.9475083622890744
       }
     ],
     "per_query_details": [
@@ -463,28 +463,8 @@
         "retrieved_chunks": [
           {
             "rank": 1,
-            "chunk_id": 49,
-            "score": 0.7954,
-            "section_id": "15.2",
-            "section_title": "Mobile-Specific Security Controls",
-            "relevant": true,
-            "grade": 2,
-            "text_preview": "Through your UEM provider, you can enforce a wide range of granular security policies on the Acme mobile app:\n- Enforce "
-          },
-          {
-            "rank": 2,
-            "chunk_id": 48,
-            "score": 0.7707,
-            "section_id": "15.1",
-            "section_title": "MDM & MAM Integration",
-            "relevant": true,
-            "grade": 2,
-            "text_preview": "The Acme mobile application for iOS and Android is fully compatible with leading Unified Endpoint Management (UEM) solut"
-          },
-          {
-            "rank": 3,
             "chunk_id": 47,
-            "score": 0.7364,
+            "score": 0.8531,
             "section_id": "15",
             "section_title": "Mobile Enterprise Management",
             "relevant": true,
@@ -492,24 +472,44 @@
             "text_preview": "Acme provides a secure and manageable mobile experience, giving IT administrators the controls they need to protect corp"
           },
           {
+            "rank": 2,
+            "chunk_id": 49,
+            "score": 0.8516,
+            "section_id": "15.2",
+            "section_title": "Mobile-Specific Security Controls",
+            "relevant": true,
+            "grade": 2,
+            "text_preview": "Through your UEM provider, you can enforce a wide range of granular security policies on the Acme mobile app:\n- Enforce "
+          },
+          {
+            "rank": 3,
+            "chunk_id": 48,
+            "score": 0.8442,
+            "section_id": "15.1",
+            "section_title": "MDM & MAM Integration",
+            "relevant": true,
+            "grade": 2,
+            "text_preview": "The Acme mobile application for iOS and Android is fully compatible with leading Unified Endpoint Management (UEM) solut"
+          },
+          {
             "rank": 4,
+            "chunk_id": 41,
+            "score": 0.8131,
+            "section_id": "13.1",
+            "section_title": "Customizable Data Retention Policies",
+            "relevant": false,
+            "grade": 0,
+            "text_preview": "Beyond simple message archives, Acme allows for the creation of highly specific data retention policies to meet legal, r"
+          },
+          {
+            "rank": 5,
             "chunk_id": 23,
-            "score": 0.7209,
+            "score": 0.8071,
             "section_id": "6.4",
             "section_title": "Data Loss Prevention (DLP)",
             "relevant": true,
             "grade": 1,
             "text_preview": "Acme helps prevent the inadvertent or malicious exfiltration of sensitive data. - DLP Integration: Our APIs allow for in"
-          },
-          {
-            "rank": 5,
-            "chunk_id": 14,
-            "score": 0.7036,
-            "section_id": "5.1",
-            "section_title": "Data Encryption",
-            "relevant": false,
-            "grade": 0,
-            "text_preview": "We ensure the confidentiality and integrity of your data through robust encryption at every stage. - Data in Transit: Al"
           }
         ]
       },
@@ -520,7 +520,7 @@
           {
             "rank": 1,
             "chunk_id": 36,
-            "score": 0.7403,
+            "score": 0.8239,
             "section_id": "12.1",
             "section_title": "Zero Trust Architecture Philosophy",
             "relevant": true,
@@ -529,28 +529,28 @@
           },
           {
             "rank": 2,
-            "chunk_id": 45,
-            "score": 0.7301,
-            "section_id": "14.1",
-            "section_title": "Acme's AI Ethics Framework",
+            "chunk_id": 35,
+            "score": 0.8162,
+            "section_id": "12",
+            "section_title": "Advanced Security & Threat Management",
             "relevant": false,
             "grade": 0,
-            "text_preview": "The development of all Acme Intelligence features is governed by a strict internal AI Ethics Framework. This framework i"
+            "text_preview": "Beyond the foundational security controls outlined previously, Acme employs a proactive and modern security posture desi"
           },
           {
             "rank": 3,
-            "chunk_id": 31,
-            "score": 0.7018,
-            "section_id": "9.2",
-            "section_title": "Organizational Commitment to Security",
+            "chunk_id": 18,
+            "score": 0.7998,
+            "section_id": "5.5",
+            "section_title": "Physical Security of Data Centers",
             "relevant": false,
             "grade": 0,
-            "text_preview": "Security is a board-level priority at Acme. Our organizational structure reflects this commitment. The security organiza"
+            "text_preview": "Acme leverages the world-class physical security of our cloud provider, AWS. Their data centers are highly secure facili"
           },
           {
             "rank": 4,
             "chunk_id": 13,
-            "score": 0.6905,
+            "score": 0.7977,
             "section_id": "5",
             "section_title": "Enterprise-Grade Security",
             "relevant": true,
@@ -560,7 +560,7 @@
           {
             "rank": 5,
             "chunk_id": 1,
-            "score": 0.6768,
+            "score": 0.788,
             "section_id": "1",
             "section_title": "Executive Summary",
             "relevant": false,
@@ -576,7 +576,7 @@
           {
             "rank": 1,
             "chunk_id": 43,
-            "score": 0.7662,
+            "score": 0.8061,
             "section_id": "13.3",
             "section_title": "Comprehensive Audit Logs for SIEM Integration",
             "relevant": true,
@@ -585,28 +585,8 @@
           },
           {
             "rank": 2,
-            "chunk_id": 37,
-            "score": 0.6404,
-            "section_id": "12.2",
-            "section_title": "Proactive Threat Intelligence Program",
-            "relevant": true,
-            "grade": 1,
-            "text_preview": "Our security team operates a proactive threat intelligence program to anticipate and defend against emerging threats. Th"
-          },
-          {
-            "rank": 3,
-            "chunk_id": 1,
-            "score": 0.6388,
-            "section_id": "1",
-            "section_title": "Executive Summary",
-            "relevant": false,
-            "grade": 0,
-            "text_preview": "In the modern digital workplace, communication is the central nervous system of an organization. However, fragmented too"
-          },
-          {
-            "rank": 4,
             "chunk_id": 38,
-            "score": 0.6344,
+            "score": 0.7348,
             "section_id": "12.3",
             "section_title": "Incident Response Lifecycle",
             "relevant": false,
@@ -614,14 +594,34 @@
             "text_preview": "Acme maintains a formal, documented Incident Response (IR) plan that is tested regularly through tabletop exercises and "
           },
           {
-            "rank": 5,
-            "chunk_id": 0,
-            "score": 0.6282,
-            "section_id": "0",
-            "section_title": "Preamble",
+            "rank": 3,
+            "chunk_id": 15,
+            "score": 0.7227,
+            "section_id": "5.2",
+            "section_title": "Identity and Access Management (IAM)",
             "relevant": false,
             "grade": 0,
-            "text_preview": "Acme Enterprise Platform: Secure, Intelligent, and Compliant Collaboration\n\nEnterprise Data Overview\n\nDocument Version: "
+            "text_preview": "- Single Sign-On (SSO): Integrate with your existing identity provider (e.g., Okta, Azure AD, Ping Identity) via SAML 2."
+          },
+          {
+            "rank": 4,
+            "chunk_id": 22,
+            "score": 0.7077,
+            "section_id": "6.3",
+            "section_title": "eDiscovery & Legal Hold",
+            "relevant": false,
+            "grade": 0,
+            "text_preview": "Our platform provides robust tools for legal and compliance teams:\n- eDiscovery API: A dedicated, secure API allows inte"
+          },
+          {
+            "rank": 5,
+            "chunk_id": 23,
+            "score": 0.7069,
+            "section_id": "6.4",
+            "section_title": "Data Loss Prevention (DLP)",
+            "relevant": false,
+            "grade": 0,
+            "text_preview": "Acme helps prevent the inadvertent or malicious exfiltration of sensitive data. - DLP Integration: Our APIs allow for in"
           }
         ]
       },
@@ -632,7 +632,7 @@
           {
             "rank": 1,
             "chunk_id": 42,
-            "score": 0.6726,
+            "score": 0.7226,
             "section_id": "13.2",
             "section_title": "Ethical Walls & Information Barriers",
             "relevant": true,
@@ -641,18 +641,8 @@
           },
           {
             "rank": 2,
-            "chunk_id": 1,
-            "score": 0.6485,
-            "section_id": "1",
-            "section_title": "Executive Summary",
-            "relevant": false,
-            "grade": 0,
-            "text_preview": "In the modern digital workplace, communication is the central nervous system of an organization. However, fragmented too"
-          },
-          {
-            "rank": 3,
             "chunk_id": 12,
-            "score": 0.6478,
+            "score": 0.7091,
             "section_id": "4.4",
             "section_title": "AI and Data Governance",
             "relevant": false,
@@ -660,24 +650,34 @@
             "text_preview": "Our AI capabilities are built on a foundation of trust and control. - Compliance-Aware AI: All AI features respect the u"
           },
           {
-            "rank": 4,
-            "chunk_id": 5,
-            "score": 0.6214,
-            "section_id": "3.1",
-            "section_title": "Seamless Communication",
+            "rank": 3,
+            "chunk_id": 41,
+            "score": 0.674,
+            "section_id": "13.1",
+            "section_title": "Customizable Data Retention Policies",
             "relevant": false,
             "grade": 0,
-            "text_preview": "- Channels: Organize conversations around projects, teams, or topics. Channels can be public for transparency or private"
+            "text_preview": "Beyond simple message archives, Acme allows for the creation of highly specific data retention policies to meet legal, r"
+          },
+          {
+            "rank": 4,
+            "chunk_id": 15,
+            "score": 0.6722,
+            "section_id": "5.2",
+            "section_title": "Identity and Access Management (IAM)",
+            "relevant": false,
+            "grade": 0,
+            "text_preview": "- Single Sign-On (SSO): Integrate with your existing identity provider (e.g., Okta, Azure AD, Ping Identity) via SAML 2."
           },
           {
             "rank": 5,
-            "chunk_id": 22,
-            "score": 0.6153,
-            "section_id": "6.3",
-            "section_title": "eDiscovery & Legal Hold",
+            "chunk_id": 49,
+            "score": 0.6652,
+            "section_id": "15.2",
+            "section_title": "Mobile-Specific Security Controls",
             "relevant": false,
             "grade": 0,
-            "text_preview": "Our platform provides robust tools for legal and compliance teams:\n- eDiscovery API: A dedicated, secure API allows inte"
+            "text_preview": "Through your UEM provider, you can enforce a wide range of granular security policies on the Acme mobile app:\n- Enforce "
           }
         ]
       },
@@ -688,7 +688,7 @@
           {
             "rank": 1,
             "chunk_id": 45,
-            "score": 0.7978,
+            "score": 0.8246,
             "section_id": "14.1",
             "section_title": "Acme's AI Ethics Framework",
             "relevant": true,
@@ -697,18 +697,18 @@
           },
           {
             "rank": 2,
-            "chunk_id": 8,
-            "score": 0.752,
-            "section_id": "4",
-            "section_title": "Acme Intelligence: The Future of Work",
-            "relevant": false,
-            "grade": 0,
-            "text_preview": "Acme Intelligence is our suite of proprietary AI and machine learning features designed to augment human capability, red"
+            "chunk_id": 44,
+            "score": 0.8064,
+            "section_id": "14",
+            "section_title": "Responsible AI & Model Governance",
+            "relevant": true,
+            "grade": 1,
+            "text_preview": "As AI becomes integral to the Acme platform, we are committed to its ethical and responsible development and deployment."
           },
           {
             "rank": 3,
             "chunk_id": 46,
-            "score": 0.7456,
+            "score": 0.7995,
             "section_id": "14.2",
             "section_title": "AI Model Governance and Validation",
             "relevant": true,
@@ -717,18 +717,18 @@
           },
           {
             "rank": 4,
-            "chunk_id": 44,
-            "score": 0.7366,
-            "section_id": "14",
-            "section_title": "Responsible AI & Model Governance",
-            "relevant": true,
-            "grade": 1,
-            "text_preview": "As AI becomes integral to the Acme platform, we are committed to its ethical and responsible development and deployment."
+            "chunk_id": 8,
+            "score": 0.7758,
+            "section_id": "4",
+            "section_title": "Acme Intelligence: The Future of Work",
+            "relevant": false,
+            "grade": 0,
+            "text_preview": "Acme Intelligence is our suite of proprietary AI and machine learning features designed to augment human capability, red"
           },
           {
             "rank": 5,
             "chunk_id": 12,
-            "score": 0.7242,
+            "score": 0.7556,
             "section_id": "4.4",
             "section_title": "AI and Data Governance",
             "relevant": true,
@@ -739,25 +739,25 @@
       }
     ]
   },
-  "e5-large-v2": {
-    "model_name": "e5-large-v2",
-    "model_id": "intfloat/e5-large-v2",
-    "description": "Strong alternative architecture (335M params, 1024d)",
+  "BGE-M3": {
+    "model_name": "BGE-M3",
+    "model_id": "BAAI/bge-m3",
+    "description": "Top open-source self-hostable (568M params, 1024d, MTEB 63.0)",
     "dim": 1024,
-    "load_time_s": 490.51,
-    "embed_passage_time_s": 4.83,
-    "embed_query_time_s": 0.21,
+    "load_time_s": 6.19,
+    "embed_passage_time_s": 8.07,
+    "embed_query_time_s": 1.06,
     "aggregate_metrics": {
       "hit_rate_at_1": 1.0,
       "hit_rate_at_3": 1.0,
       "hit_rate_at_5": 1.0,
-      "precision_at_3": 0.6667,
+      "precision_at_3": 0.6,
       "precision_at_5": 0.44,
-      "recall_at_3": 0.7333,
+      "recall_at_3": 0.6833,
       "recall_at_5": 0.7833,
       "mrr": 1.0,
-      "ndcg_at_3": 0.925,
-      "ndcg_at_5": 0.9094
+      "ndcg_at_3": 0.8645,
+      "ndcg_at_5": 0.8682
     },
     "per_query_metrics": [
       {
@@ -766,12 +766,12 @@
         "hit_rate_at_3": 1.0,
         "hit_rate_at_5": 1.0,
         "precision_at_3": 1.0,
-        "precision_at_5": 0.6,
+        "precision_at_5": 0.8,
         "recall_at_3": 0.75,
-        "recall_at_5": 0.75,
+        "recall_at_5": 1.0,
         "mrr": 1.0,
-        "ndcg_at_3": 0.9514426589871553,
-        "ndcg_at_5": 0.8810783669439536
+        "ndcg_at_3": 0.8145672023038535,
+        "ndcg_at_5": 0.8207555803845797
       },
       {
         "qid": 2,
@@ -817,13 +817,13 @@
         "hit_rate_at_1": 1.0,
         "hit_rate_at_3": 1.0,
         "hit_rate_at_5": 1.0,
-        "precision_at_3": 1.0,
-        "precision_at_5": 0.8,
-        "recall_at_3": 0.75,
-        "recall_at_5": 1.0,
+        "precision_at_3": 0.6666666666666666,
+        "precision_at_5": 0.6,
+        "recall_at_3": 0.5,
+        "recall_at_5": 0.75,
         "mrr": 1.0,
-        "ndcg_at_3": 1.0,
-        "ndcg_at_5": 0.9924746272747981
+        "ndcg_at_3": 0.8344475896326595,
+        "ndcg_at_5": 0.8466910790763054
       }
     ],
     "per_query_details": [
@@ -833,18 +833,8 @@
         "retrieved_chunks": [
           {
             "rank": 1,
-            "chunk_id": 49,
-            "score": 0.8871,
-            "section_id": "15.2",
-            "section_title": "Mobile-Specific Security Controls",
-            "relevant": true,
-            "grade": 2,
-            "text_preview": "Through your UEM provider, you can enforce a wide range of granular security policies on the Acme mobile app:\n- Enforce "
-          },
-          {
-            "rank": 2,
             "chunk_id": 47,
-            "score": 0.8735,
+            "score": 0.7843,
             "section_id": "15",
             "section_title": "Mobile Enterprise Management",
             "relevant": true,
@@ -852,9 +842,19 @@
             "text_preview": "Acme provides a secure and manageable mobile experience, giving IT administrators the controls they need to protect corp"
           },
           {
+            "rank": 2,
+            "chunk_id": 49,
+            "score": 0.7572,
+            "section_id": "15.2",
+            "section_title": "Mobile-Specific Security Controls",
+            "relevant": true,
+            "grade": 2,
+            "text_preview": "Through your UEM provider, you can enforce a wide range of granular security policies on the Acme mobile app:\n- Enforce "
+          },
+          {
             "rank": 3,
             "chunk_id": 48,
-            "score": 0.8467,
+            "score": 0.7403,
             "section_id": "15.1",
             "section_title": "MDM & MAM Integration",
             "relevant": true,
@@ -863,23 +863,23 @@
           },
           {
             "rank": 4,
-            "chunk_id": 41,
-            "score": 0.8382,
-            "section_id": "13.1",
-            "section_title": "Customizable Data Retention Policies",
+            "chunk_id": 13,
+            "score": 0.7181,
+            "section_id": "5",
+            "section_title": "Enterprise-Grade Security",
             "relevant": false,
             "grade": 0,
-            "text_preview": "Beyond simple message archives, Acme allows for the creation of highly specific data retention policies to meet legal, r"
+            "text_preview": "Security is not a feature at Acme; it is the foundation upon which our platform is built. We employ a defense-in-depth s"
           },
           {
             "rank": 5,
-            "chunk_id": 40,
-            "score": 0.8354,
-            "section_id": "13",
-            "section_title": "Advanced Data Governance & Control",
-            "relevant": false,
-            "grade": 0,
-            "text_preview": "Acme provides enterprise administrators with powerful, granular tools to enforce their specific corporate and regulatory"
+            "chunk_id": 23,
+            "score": 0.7096,
+            "section_id": "6.4",
+            "section_title": "Data Loss Prevention (DLP)",
+            "relevant": true,
+            "grade": 1,
+            "text_preview": "Acme helps prevent the inadvertent or malicious exfiltration of sensitive data. - DLP Integration: Our APIs allow for in"
           }
         ]
       },
@@ -890,7 +890,7 @@
           {
             "rank": 1,
             "chunk_id": 36,
-            "score": 0.8995,
+            "score": 0.744,
             "section_id": "12.1",
             "section_title": "Zero Trust Architecture Philosophy",
             "relevant": true,
@@ -900,7 +900,7 @@
           {
             "rank": 2,
             "chunk_id": 35,
-            "score": 0.8583,
+            "score": 0.6899,
             "section_id": "12",
             "section_title": "Advanced Security & Threat Management",
             "relevant": false,
@@ -910,7 +910,7 @@
           {
             "rank": 3,
             "chunk_id": 13,
-            "score": 0.847,
+            "score": 0.6733,
             "section_id": "5",
             "section_title": "Enterprise-Grade Security",
             "relevant": true,
@@ -919,23 +919,23 @@
           },
           {
             "rank": 4,
-            "chunk_id": 24,
-            "score": 0.8384,
-            "section_id": "7",
-            "section_title": "Reliability & Disaster Recovery",
-            "relevant": false,
-            "grade": 0,
-            "text_preview": "Acme is architected for enterprise-grade resilience and availability, ensuring that your organization's communication hu"
-          },
-          {
-            "rank": 5,
             "chunk_id": 31,
-            "score": 0.8348,
+            "score": 0.6657,
             "section_id": "9.2",
             "section_title": "Organizational Commitment to Security",
             "relevant": false,
             "grade": 0,
             "text_preview": "Security is a board-level priority at Acme. Our organizational structure reflects this commitment. The security organiza"
+          },
+          {
+            "rank": 5,
+            "chunk_id": 47,
+            "score": 0.6449,
+            "section_id": "15",
+            "section_title": "Mobile Enterprise Management",
+            "relevant": false,
+            "grade": 0,
+            "text_preview": "Acme provides a secure and manageable mobile experience, giving IT administrators the controls they need to protect corp"
           }
         ]
       },
@@ -946,7 +946,7 @@
           {
             "rank": 1,
             "chunk_id": 43,
-            "score": 0.8564,
+            "score": 0.7692,
             "section_id": "13.3",
             "section_title": "Comprehensive Audit Logs for SIEM Integration",
             "relevant": true,
@@ -955,28 +955,28 @@
           },
           {
             "rank": 2,
-            "chunk_id": 38,
-            "score": 0.7904,
-            "section_id": "12.3",
-            "section_title": "Incident Response Lifecycle",
+            "chunk_id": 29,
+            "score": 0.6318,
+            "section_id": "8.2",
+            "section_title": "Robust API and Integration Ecosystem",
             "relevant": false,
             "grade": 0,
-            "text_preview": "Acme maintains a formal, documented Incident Response (IR) plan that is tested regularly through tabletop exercises and "
+            "text_preview": "We believe in an open and extensible platform. Our comprehensive set of APIs allows for deep integration into your exist"
           },
           {
             "rank": 3,
-            "chunk_id": 15,
-            "score": 0.7902,
-            "section_id": "5.2",
-            "section_title": "Identity and Access Management (IAM)",
+            "chunk_id": 0,
+            "score": 0.6284,
+            "section_id": "0",
+            "section_title": "Preamble",
             "relevant": false,
             "grade": 0,
-            "text_preview": "- Single Sign-On (SSO): Integrate with your existing identity provider (e.g., Okta, Azure AD, Ping Identity) via SAML 2."
+            "text_preview": "Acme Enterprise Platform: Secure, Intelligent, and Compliant Collaboration\n\nEnterprise Data Overview\n\nDocument Version: "
           },
           {
             "rank": 4,
             "chunk_id": 23,
-            "score": 0.7893,
+            "score": 0.6225,
             "section_id": "6.4",
             "section_title": "Data Loss Prevention (DLP)",
             "relevant": false,
@@ -985,13 +985,13 @@
           },
           {
             "rank": 5,
-            "chunk_id": 22,
-            "score": 0.7884,
-            "section_id": "6.3",
-            "section_title": "eDiscovery & Legal Hold",
+            "chunk_id": 38,
+            "score": 0.6147,
+            "section_id": "12.3",
+            "section_title": "Incident Response Lifecycle",
             "relevant": false,
             "grade": 0,
-            "text_preview": "Our platform provides robust tools for legal and compliance teams:\n- eDiscovery API: A dedicated, secure API allows inte"
+            "text_preview": "Acme maintains a formal, documented Incident Response (IR) plan that is tested regularly through tabletop exercises and "
           }
         ]
       },
@@ -1002,7 +1002,7 @@
           {
             "rank": 1,
             "chunk_id": 42,
-            "score": 0.8304,
+            "score": 0.6909,
             "section_id": "13.2",
             "section_title": "Ethical Walls & Information Barriers",
             "relevant": true,
@@ -1011,28 +1011,18 @@
           },
           {
             "rank": 2,
-            "chunk_id": 22,
-            "score": 0.8022,
-            "section_id": "6.3",
-            "section_title": "eDiscovery & Legal Hold",
+            "chunk_id": 23,
+            "score": 0.5746,
+            "section_id": "6.4",
+            "section_title": "Data Loss Prevention (DLP)",
             "relevant": false,
             "grade": 0,
-            "text_preview": "Our platform provides robust tools for legal and compliance teams:\n- eDiscovery API: A dedicated, secure API allows inte"
+            "text_preview": "Acme helps prevent the inadvertent or malicious exfiltration of sensitive data. - DLP Integration: Our APIs allow for in"
           },
           {
             "rank": 3,
-            "chunk_id": 7,
-            "score": 0.8001,
-            "section_id": "3.3",
-            "section_title": "Productivity & Workflow Automation",
-            "relevant": false,
-            "grade": 0,
-            "text_preview": "- Universal Search: Our powerful, unified search engine allows you to find messages, files, channels, and people instant"
-          },
-          {
-            "rank": 4,
             "chunk_id": 12,
-            "score": 0.7996,
+            "score": 0.5699,
             "section_id": "4.4",
             "section_title": "AI and Data Governance",
             "relevant": false,
@@ -1040,9 +1030,19 @@
             "text_preview": "Our AI capabilities are built on a foundation of trust and control. - Compliance-Aware AI: All AI features respect the u"
           },
           {
+            "rank": 4,
+            "chunk_id": 41,
+            "score": 0.5641,
+            "section_id": "13.1",
+            "section_title": "Customizable Data Retention Policies",
+            "relevant": false,
+            "grade": 0,
+            "text_preview": "Beyond simple message archives, Acme allows for the creation of highly specific data retention policies to meet legal, r"
+          },
+          {
             "rank": 5,
             "chunk_id": 40,
-            "score": 0.7982,
+            "score": 0.5555,
             "section_id": "13",
             "section_title": "Advanced Data Governance & Control",
             "relevant": false,
@@ -1058,7 +1058,7 @@
           {
             "rank": 1,
             "chunk_id": 45,
-            "score": 0.9001,
+            "score": 0.744,
             "section_id": "14.1",
             "section_title": "Acme's AI Ethics Framework",
             "relevant": true,
@@ -1067,8 +1067,18 @@
           },
           {
             "rank": 2,
+            "chunk_id": 8,
+            "score": 0.7057,
+            "section_id": "4",
+            "section_title": "Acme Intelligence: The Future of Work",
+            "relevant": false,
+            "grade": 0,
+            "text_preview": "Acme Intelligence is our suite of proprietary AI and machine learning features designed to augment human capability, red"
+          },
+          {
+            "rank": 3,
             "chunk_id": 46,
-            "score": 0.8914,
+            "score": 0.7024,
             "section_id": "14.2",
             "section_title": "AI Model Governance and Validation",
             "relevant": true,
@@ -1076,9 +1086,9 @@
             "text_preview": "Our machine learning models undergo a rigorous governance and validation lifecycle before being deployed to production. "
           },
           {
-            "rank": 3,
+            "rank": 4,
             "chunk_id": 44,
-            "score": 0.874,
+            "score": 0.6794,
             "section_id": "14",
             "section_title": "Responsible AI & Model Governance",
             "relevant": true,
@@ -1086,24 +1096,14 @@
             "text_preview": "As AI becomes integral to the Acme platform, we are committed to its ethical and responsible development and deployment."
           },
           {
-            "rank": 4,
-            "chunk_id": 36,
-            "score": 0.8534,
-            "section_id": "12.1",
-            "section_title": "Zero Trust Architecture Philosophy",
+            "rank": 5,
+            "chunk_id": 19,
+            "score": 0.6603,
+            "section_id": "6",
+            "section_title": "Compliance and Data Governance",
             "relevant": false,
             "grade": 0,
-            "text_preview": "Acme's infrastructure and application architecture are guided by a Zero Trust philosophy. This means we do not automatic"
-          },
-          {
-            "rank": 5,
-            "chunk_id": 12,
-            "score": 0.853,
-            "section_id": "4.4",
-            "section_title": "AI and Data Governance",
-            "relevant": true,
-            "grade": 1,
-            "text_preview": "Our AI capabilities are built on a foundation of trust and control. - Compliance-Aware AI: All AI features respect the u"
+            "text_preview": "Acme is committed to helping our customers meet their complex regulatory and data governance obligations."
           }
         ]
       }
